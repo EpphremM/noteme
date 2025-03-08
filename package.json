@@ -1,16 +1,22 @@
 {
-  "name": "vscode-extension-sidebar-html",
-  "displayName": "Bug Reminder & Build Tracker",
+  "name": "noteme",
+  "displayName": "Dev Notes",
  "description": "Tracks TODOs, FIXMEs, and build errors, providing reminders in VS Code. Reminder: Future updates may include a sidebar panel, notifications, and task management for better tracking.",
     "version": "1.0.0",
-    "publisher": "Ephrem Mandefro",
+    "publisher": "EpphremM",
     "license": "MIT" ,
+    "repository": {
+  "type": "git",
+  "url": "https://github.com/EpphremM/noteme.git"
+},
+
   "engines": {
     "vscode": "^1.61.0"
   },
   "categories": [
     "Other"
   ],
+
   "activationEvents": [
     "onCommand:noteme.openview",
     "onView:noteme.openview"
@@ -22,7 +28,7 @@
         {
           "id": "noteme-activitybar",
           "title": "Note Me",
-          "icon": "src/assets/logo.svg"
+          "icon": "assets/logo.svg"
         }
       ]
     },
@@ -39,12 +45,12 @@
     "commands": [
       {
         "command": "noteme.openview",
-        "title": "Sidebar View"
+        "title": "noteme view "
       },
       {
         "command": "noteme.menu.view",
-        "category": "vscode-extension-sidebar-html",
-        "title": "Sample WebView in VS Code Sidebar",
+        "category": "noteme reminder for tracking bugs and tasks",
+        "title": " noteme reminder",
         "icon": "$(clear-all)"
       }
     ],
