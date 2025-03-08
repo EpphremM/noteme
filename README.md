@@ -7,16 +7,19 @@ This extension helps track builds, bugs, and errors in your VS Code projects. It
 - Display bug reminders in the sidebar
 - Automatically log failed builds
 
-## Installation
-1. Install from the VS Code Marketplace (or manually using `.vsix`).
-2. Enable the extension from the Extensions panel.
+## 📦 Installation  
+### From VS Code Marketplace  
+1. Open **Extensions** (`Ctrl+Shift+X`).  
+2. Search for **"Dev Notes"**.  
+3. Click **Install** and restart VS Code if needed.  
+Enable the extension from the Extensions panel.
 
 ## Usage
 - **Write Comments:**  
   - To track a TODO or FIXME, simply add comments in your code like this:  
     ```js
-    //. TODO: Add error handling for API calls
-    //. FIXME: Fix the login issue after refresh
+    //~ TODO: Add error handling for API calls
+    //~ FIXME: Fix the login issue after refresh
     ```
 
 - **Track Comments Automatically:**  

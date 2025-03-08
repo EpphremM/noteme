@@ -1,8 +1,9 @@
 {
   "name": "noteme",
+  "icon": "assets/image.png",
   "displayName": "Dev Notes",
  "description": "Tracks TODOs, FIXMEs, and build errors, providing reminders in VS Code. Reminder: Future updates may include a sidebar panel, notifications, and task management for better tracking.",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "publisher": "EpphremM",
     "license": "MIT" ,
     "repository": {
@@ -28,10 +29,11 @@
         {
           "id": "noteme-activitybar",
           "title": "Note Me",
-          "icon": "assets/logo.svg"
+          "icon": "assets/image.png"
         }
       ]
     },
+  
     "views": {
       "noteme-activitybar": [
         {

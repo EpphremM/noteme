@@ -23,7 +23,7 @@ export class CommentManager {
       const lines = document.split("\n");
 
       lines.forEach((line:any, index:any) => {
-        const match = line.match(/\/\/\.(.*?)$/);
+        const match = line.match(/\/\/~(.*?)$/);
         if (match) {
           comments.push({ text: match[1].trim(), line: index, file: filePath });
         }
