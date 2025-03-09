@@ -33,7 +33,7 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
   }
 
   async updateComments() {
-    if (!this._view) return;
+    if (!this._view) {return;}
     const comments = await this.commentManager.getAllComments();
     this._view.webview.postMessage({ command: "updateComments", comments });
   }

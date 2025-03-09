@@ -54,7 +54,7 @@ class CommentManager {
             const document = FileUtils_1.FileUtils.readFile(filePath);
             const lines = document.split("\n");
             lines.forEach((line, index) => {
-                const match = line.match(/\/\/\.(.*?)$/);
+                const match = line.match(/\/\/~(.*?)$/);
                 if (match) {
                     comments.push({ text: match[1].trim(), line: index, file: filePath });
                 }

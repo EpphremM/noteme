@@ -3,7 +3,7 @@
   "icon": "assets/image.png",
   "displayName": "Dev Notes",
  "description": "Tracks TODOs, FIXMEs, and build errors, providing reminders in VS Code. Reminder: Future updates may include a sidebar panel, notifications, and task management for better tracking.",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "publisher": "EpphremM",
     "license": "MIT" ,
     "repository": {
