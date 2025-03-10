@@ -64,8 +64,9 @@ class SidebarProvider {
         vscode.workspace.onDidSaveTextDocument(() => this.updateComments());
     }
     async updateComments() {
-        if (!this._view)
+        if (!this._view) {
             return;
+        }
         const comments = await this.commentManager.getAllComments();
         this._view.webview.postMessage({ command: "updateComments", comments });
     }

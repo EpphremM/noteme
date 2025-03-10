@@ -34,7 +34,7 @@ Enable the extension from the Extensions panel.
 
 
 ## Requirements
-- VS Code v1.80.0 or later
+- VS Code v1.90.0 or later
 
 ## Release Notes
 ### 1.0.0
